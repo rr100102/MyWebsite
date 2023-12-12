@@ -1,7 +1,46 @@
 <html>
-<head></head>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
 <body>
 
+ <div class="tab">
+   <button class="tablinks" onclick="langName(event, 'News')">News</button>
+   <button class="tablinks" onclick="langName(event, 'About')">About</button>
+   <button class="tablinks" onclick="langName(event, 'Feedback')">
+      Feedback
+   </button>
+   </div>
+   <div id="News" class="tabcontent">
+      <br>
+      <a href="https://spacenews.com/"<button class="button-1" role="button">Space News</button> </a>
+   </div>
+   <div id="About" class="tabcontent">
+      
+      <p>This website is about space and its issuses, most people don't know anything about space, the most they know is the names of the palnets and some other facts.But they never learn about the beauty of space and how we need to protect it. Space is really improtant, it has a lot of science about it.I hope that one day more people will be able to learn more about space, its beautys and isseses.</p>
+   </div>
+   <div id="Feedback" class="tabcontent">
+      
+      <p>Please click on the button to fill out a from about my webstibe</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrmOouRw8PKseldaExdz5l9xdZIist2rh0I8W-7UDLZvUUug/viewform?usp=sf_link"<button class="button-1" role="button">Feedback</button></a>
+
+
+   </div>
+   <script>
+      function langName(evt, name) {
+         var i, tabcontent, tablinks;
+         tabcontent = document.getElementsByClassName("tabcontent");
+         for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+         }
+         tablinks = document.getElementsByClassName("tablinks");
+         for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+         }
+         document.getElementById(name).style.display = "block";
+         evt.currentTarget.className += " active";
+      }
+   </script>
 
 
  
@@ -35,8 +74,50 @@ objects like a feather, golf balls and boots. It adds up to around 200 tons<br>
 of our trash.Since no one owns the Moon, no one is responsible for keeping it<br>
 clean and tidy.</p2></font>
 
+<font size="5"><em><strong><h2>Light Pollution</h2></strong></em>
+<p>
+Light pollution is a global issue. This became glaringly obvious when the World Atlas of Night Sky Brightness, a computer-generated map based on thousands of satellite photos, was published in 2016. Available online for viewing, the atlas shows how and where our globe is lit up at night. Vast areas of North America, Europe, the Middle East, and Asia are glowing with light, while only the most remote regions on Earth (Siberia, the Sahara, and the Amazon) are in total darkness. Some of the most light-polluted countries in the world are Singapore, Qatar, and Kuwait.
+</p>
+
 
 <style>
+
+ body {
+         font-family: Arial;
+      }
+      /* Style the tab */
+      .tab {
+         overflow: hidden;
+         border: 1px solid #ccc;
+         background-color: #f1f1f1;
+      }
+      /* Style the buttons inside the tab */
+      .tab button {
+         background-color: #f1f1f1;
+         float: left;
+         border: none;
+         outline: none;
+         cursor: pointer;
+         padding: 14px 16px;
+         transition: 0.3s;
+         font-size: 17px;
+      }
+      /* Change background color of buttons on hover */
+      .tab button:hover {
+         background-color: rgb(173, 150, 232);
+      }
+      /* Create an active/current tablink class */
+      .tab button.active {
+         background-color: rgb(173, 150, 232);;
+      }
+      /* Style the tab content */
+      .tabcontent {
+         text-align: center;
+         display: none;
+         padding: 6px 12px;
+         -webkit-animation: fadeEffect 1s;
+         animation: fadeEffect 1s;
+      }
 
 	h3 { text-align: right }
 
@@ -46,7 +127,3 @@ clean and tidy.</p2></font>
       border: 6px solid #e6e6e6;
       background: radial-gradient(circle, rgba(98,76,129,1) 0%, rgba(54,70,105,1) 100%);
       } 
- 
-</style>
-  </body>
-</html>
