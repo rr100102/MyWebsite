@@ -1,163 +1,193 @@
 <html>
-<head>
- <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
-<body>
 
- <div class="tab">
-   <button class="tablinks" onclick="langName(event, 'News')">News</button>
-   <button class="tablinks" onclick="langName(event, 'About')">About</button>
-   <button class="tablinks" onclick="langName(event, 'Feedback')">
-      Feedback
-   </button>
-   </div>
-   <div id="News" class="tabcontent">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+
+    <div class="tab">
+      <button class="tablinks" onclick="langName(event, 'News')">News</button>
+      <button class="tablinks" onclick="langName(event, 'About')">About</button>
+      <button class="tablinks" onclick="langName(event, 'Feedback')">
+        Feedback
+      </button>
+    </div>
+    <div id="News" class="tabcontent">
       <br>
-      <a href="https://spacenews.com/"<button class="button-1" role="button">Space News</button> </a>
-   </div>
-   <div id="About" class="tabcontent">
-      
-      <p>This website is about space and its issuses, most people don't know anything about space, the most they know is the names of the palnets and some other facts.But they never learn about the beauty of space and how we need to protect it. Space is really improtant, it has a lot of science about it.I hope that one day more people will be able to learn more about space, its beautys and isseses.</p>
-   </div>
-   <div id="Feedback" class="tabcontent">
-      
-      <p>Please click on the button to fill out a from about my webstibe</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrmOouRw8PKseldaExdz5l9xdZIist2rh0I8W-7UDLZvUUug/viewform?usp=sf_link"<button class="button-1" role="button">Feedback</button></a>
+      <a href="https://spacenews.com/" <button class="button-1" role="button">Space News</button> </a>
+    </div>
+    <div id="About" class="tabcontent">
+
+      <font size="4">
+        <p>This website is about space and its issuses, most people don't know anything about space, the most they know is the names of the palnets and some other facts.But they never learn about the beauty of space and how we need to protect it. Space is really improtant, it has a lot of science about it.I hope that one day more people will be able to learn more about space, its beautys and issues.</p>
+      </font>
+    </div>
+    <div id="Feedback" class="tabcontent">
+
+      <font size="4">
+        <p>Please click on the button to fill out a from about my webstibe</p>
+      </font>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrmOouRw8PKseldaExdz5l9xdZIist2rh0I8W-7UDLZvUUug/viewform?usp=sf_link" <button class="button-1" role="button">Feedback</button></a>
 
 
-   </div>
-   <script>
+    </div>
+    <script>
       function langName(evt, name) {
-         var i, tabcontent, tablinks;
-         tabcontent = document.getElementsByClassName("tabcontent");
-         for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-         }
-         tablinks = document.getElementsByClassName("tablinks");
-         for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-         }
-         document.getElementById(name).style.display = "block";
-         evt.currentTarget.className += " active";
-      }
-   </script>
-
-
- 
-  <h1><strong><center>Space Issuses</center></strong></h1>
-
-<font size="5"><em><strong><h2>Why trash in space is a major problem</h2></strong></em>
-<p>There’s a lot of trash on the Moon right now – including nearly<br>
-100 bags of human waste – and with countries around the<br>
-globe traveling to the Moon, there’s going to be a lot more,<br>
-both on the lunar surface and in Earth’s orbit.</p></font>
-
-<font size="5"><p>In August 2023, Russia’s Luna-25 probe crashed into the Moon’s surface,<br>
-while India’s Chandrayann-3 mission successfully landed in the southern<br>
-polar region, making India the fourth country to land on the Moon.</p></font>
-
-<center><iframe src="https://giphy.com/embed/xT9IgusfDcqpPFzjdS" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/loop-endless-trippy-xT9IgusfDcqpPFzjdS">via GIPHY</a></p></center>
-
-  <h3><details>
-	<summary>Facts</summary>
-	In the observable universe<br>
-  there are an estimated 2 trillion<br>
-  (2,000,000,000,000) galaxies.
-
-</details></h3>
-
-<font size="5"><em><strong><h2>The problem of space junk</h2></strong></em>
-<p2>All this activity creates hazards and debris. Humans have left a lot of junk<br>
-on the Moon, including spacecraft remains like rocket boosters from over 50<br>
-crashed landings, nearly 100 bags of human waste and miscellaneous<br>
-objects like a feather, golf balls and boots. It adds up to around 200 tons<br>
-of our trash.Since no one owns the Moon, no one is responsible for keeping it<br>
-clean and tidy.</p2></font>
-
-<font size="5"><em><strong><h2>Light Pollution</h2></strong></em>
-<p>
-Light pollution is a global issue. This became glaringly obvious when the World Atlas of Night Sky Brightness, a computer-generated map based on thousands of satellite photos, was published in 2016. Available online for viewing, the atlas shows how and where our globe is lit up at night. Vast areas of North America, Europe, the Middle East, and Asia are glowing with light, while only the most remote regions on Earth (Siberia, the Sahara, and the Amazon) are in total darkness. Some of the most light-polluted countries in the world are Singapore, Qatar, and Kuwait.
-</p>
-<br>
-
-
-<style>
-
-.button-1 {
-  background-color: #68596b;
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  margin: 0;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-1:hover,
-.button-1:focus {
-  background-color: #948396;
-}
-
-
- body {
-         font-family: Arial;
-      }
-      /* Style the tab */
-      .tab {
-         overflow: hidden;
-         border: 1px solid #ccc;
-         background-color: #f1f1f1;
-      }
-      /* Style the buttons inside the tab */
-      .tab button {
-         background-color: #f1f1f1;
-         float: left;
-         border: none;
-         outline: none;
-         cursor: pointer;
-         padding: 14px 16px;
-         transition: 0.3s;
-         font-size: 17px;
-      }
-      /* Change background color of buttons on hover */
-      .tab button:hover {
-         background-color: rgb(173, 150, 232);
-      }
-      /* Create an active/current tablink class */
-      .tab button.active {
-         background-color: rgb(173, 150, 232);;
-      }
-      /* Style the tab content */
-      .tabcontent {
-         text-align: center;
-         display: none;
-         padding: 6px 12px;
-         -webkit-animation: fadeEffect 1s;
-         animation: fadeEffect 1s;
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(name).style.display = "block";
+        evt.currentTarget.className += " active";
       }
 
-	h3 { text-align: center }
+    </script>
 
 
-  body{
-      background: rgb(98,76,129);
-      border: 6px solid #e6e6e6;
-      background: radial-gradient(circle, rgba(98,76,129,1) 0%, rgba(54,70,105,1) 100%);
-      } 
+
+    <h1><strong>
+        <center>Space Issues</center>
+      </strong></h1>
+
+    <font size="5"><em><strong>
+          <h2>Why trash in space is a major problem?</h2>
+        </strong></em>
+      <p>There’s a lot of trash on the Moon right now – including nearly<br>
+        100 bags of human waste – and with countries around the<br>
+        globe traveling to the Moon, there’s going to be a lot more,<br>
+        both on the lunar surface and in Earth’s orbit.</p>
+    </font>
+
+    <font size="5">
+      <p>In August 2023, Russia’s Luna-25 probe crashed into the Moon’s surface,<br>
+        while India’s Chandrayann-3 mission successfully landed in the southern<br>
+        polar region, making India the fourth country to land on the Moon.</p>
+    </font>
+
+    <center><iframe src="https://giphy.com/embed/xT9IgusfDcqpPFzjdS" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <p><a href="https://giphy.com/gifs/loop-endless-trippy-xT9IgusfDcqpPFzjdS">via GIPHY</a></p>
+    </center>
+
+    <h3>
+      <details>
+        <summary>Facts</summary>
+        In the observable universe<br>
+        there are an estimated 2 trillion<br>
+        (2,000,000,000,000) galaxies.
+
+      </details>
+    </h3>
+
+    <font size="5"><em><strong>
+          <h2>The problem of space junk</h2>
+        </strong></em>
+      <p2>All this activity creates hazards and debris. Humans have left a lot of junk<br>
+        on the Moon, including spacecraft remains like rocket boosters from over 50<br>
+        crashed landings, nearly 100 bags of human waste and miscellaneous<br>
+        objects like a feather, golf balls and boots. It adds up to around 200 tons<br>
+        of our trash.Since no one owns the Moon, no one is responsible for keeping it<br>
+        clean and tidy.</p2>
+    </font>
+
+    <font size="5"><em><strong>
+          <h2>Light Pollution</h2>
+        </strong></em>
+      <p>
+        Light pollution is a global issue. This became glaringly obvious when the World Atlas of Night Sky Brightness, a computer-generated map based on thousands of satellite photos, was published in 2016. Available online for viewing, the atlas shows how and where our globe is lit up at night. Vast areas of North America, Europe, the Middle East, and Asia are glowing with light, while only the most remote regions on Earth (Siberia, the Sahara, and the Amazon) are in total darkness. Some of the most light-polluted countries in the world are Singapore, Qatar, and Kuwait.
+      </p>
+      <br>
+
+
+      <style>
+        .button-1 {
+          background-color: #484866;
+          border-radius: 8px;
+          border-style: none;
+          box-sizing: border-box;
+          color: #FFFFFF;
+          cursor: pointer;
+          display: inline-block;
+          font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          height: 40px;
+          line-height: 20px;
+          list-style: none;
+          margin: 0;
+          outline: none;
+          padding: 10px 16px;
+          position: relative;
+          text-align: center;
+          text-decoration: none;
+          transition: color 100ms;
+          vertical-align: baseline;
+          user-select: none;
+          -webkit-user-select: none;
+          touch-action: manipulation;
+        }
+
+        .button-1:hover,
+        .button-1:focus {
+          background-color: #51516e;
+        }
+
+
+        body {
+          font-family: Arial;
+        }
+
+        /* Style the tab */
+        .tab {
+          overflow: hidden;
+          border: 1px solid #ccc;
+          background-color: #ffffff;
+        }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+          background-color: #bababf1;
+          float: left;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          padding: 14px 16px;
+          transition: 0.3s;
+          font-size: 17px;
+        }
+
+        /* Change background color of buttons on hover */
+        .tab button:hover {
+          background-color: rgb(122, 122, 161);
+        }
+
+        /* Create an active/current tablink class */
+        .tab button.active {
+          background-color: rgb(133, 134, 161);
+          ;
+        }
+
+        /* Style the tab content */
+        .tabcontent {
+          text-align: center;
+          display: none;
+          padding: 6px 12px;
+          -webkit-animation: fadeEffect 1s;
+          animation: fadeEffect 1s;
+        }
+
+        h3 {
+          text-align: center
+        }
+
+
+        body {
+          background: rgb(98, 76, 129);
+          border: 6px solid #e6e6e6;
+          background: radial-gradient(circle, rgba(98, 76, 129, 1) 0%, rgba(54, 70, 105, 1) 100%);
+        }
