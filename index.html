@@ -1,202 +1,94 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GCSE Computing Revision</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    footer {
+      background-color: #ddd;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    img {
+      margin: 10px 0;
+      max-width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GCSE Computing Revision</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#hardware">Hardware</a>
+      <a href="#software">Software</a>
+      <a href="#quiz">Quiz</a>
+    </nav>
+  </header>
 
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
+  <section id="home">
+    <h2>Welcome!</h2>
+    <p>This website will help you revise key GCSE Computing topics including hardware, software, and practice questions.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Computer-icon.png" alt="Computer Image">
+  </section>
 
-  <body>
+  <section id="hardware">
+    <h2>Hardware</h2>
+    <ul>
+      <li><strong>CPU:</strong> Executes instructions, the brain of the computer.</li>
+      <li><strong>RAM:</strong> Temporary memory used while programs run.</li>
+      <li><strong>Storage:</strong> Hard drives and SSDs store data permanently.</li>
+    </ul>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Intel_CPU.jpg" alt="CPU Image">
+  </section>
 
-    <div class="tab">
-      <button class="tablinks" onclick="langName(event, 'News')">News</button>
-      <button class="tablinks" onclick="langName(event, 'About')">About</button>
-      <button class="tablinks" onclick="langName(event, 'Feedback')">
-        Feedback
-      </button>
-    </div>
-    <div id="News" class="tabcontent">
-      <br>
-      <a href="https://spacenews.com/" <button class="button-1" role="button">Space News</button> </a>
-    </div>
-    <div id="About" class="tabcontent">
+  <section id="software">
+    <h2>Software</h2>
+    <ul>
+      <li><strong>System Software:</strong> Operating systems manage hardware and software.</li>
+      <li><strong>Application Software:</strong> Programs like word processors and games.</li>
+      <li><strong>Utility Software:</strong> Tools for maintenance, e.g., antivirus.</li>
+    </ul>
+  </section>
 
-      <font size="4">
-        <p>This website is about space and its issuses, most people don't know anything about space, the most they know is the names of the palnets and some other facts. But they never learn about the beauty of space and how we need to protect it. Space is really improtant, it has a lot of science about it.I hope that one day more people will be able to learn more about space, its beautys and issues.</p>
-      </font>
-    </div>
-    <div id="Feedback" class="tabcontent">
+  <section id="quiz">
+    <h2>Practice Questions</h2>
+    <ol>
+      <li>What does CPU stand for?</li>
+      <li>Give one example of application software.</li>
+      <li>What is the difference between RAM and storage?</li>
+    </ol>
+  </section>
 
-      <font size="4">
-        <p>Please click on the button to fill out a from about my webstibe</p>
-      </font>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfrmOouRw8PKseldaExdz5l9xdZIist2rh0I8W-7UDLZvUUug/viewform?usp=sf_link" <button class="button-1" role="button">Feedback</button></a>
-
-
-    </div>
-    <script>
-      function langName(evt, name) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(name).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-
-    </script>
-
-
-
-    <h1><strong>
-        <center>Space Issues</center>
-      </strong></h1>
-
-    <font size="5"><em><strong>
-          <h2>Why trash in space is a major problem?</h2>
-        </strong></em>
-      <p>There’s a lot of trash on the Moon right now – including nearly<br>
-        100 bags of human waste – and with countries around the<br>
-        globe traveling to the Moon, there’s going to be a lot more,<br>
-        both on the lunar surface and in Earth’s orbit.</p>
-    </font>
-
-    <font size="5">
-      <p>In August 2023, Russia’s Luna-25 probe crashed into the Moon’s<br>
-        surface, while India’s Chandrayann-3 mission successfully landed in<br>
-        the southern polar region, making India the fourth country to land on the Moon.</p>
-    </font>
-
-    <center><iframe src="https://giphy.com/embed/xT9IgusfDcqpPFzjdS" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-      <p><a href="https://giphy.com/gifs/loop-endless-trippy-xT9IgusfDcqpPFzjdS">via GIPHY</a></p>
-    </center>
-
-    <h3>
-      <details>
-        <summary>Facts</summary>
-        In the observable universe<br>
-        there are an estimated 2 trillion<br>
-        (2,000,000,000,000) galaxies.
-
-      </details>
-    </h3>
-
-    <font size="5"><em><strong>
-          <h2>The problem of space junk</h2>
-        </strong></em>
-      <p2>All this activity creates hazards and debris. Humans have left a lot of junk<br>
-        on the Moon, including spacecraft remains like rocket boosters from over 50<br>
-        crashed landings, nearly 100 bags of human waste and miscellaneous<br>
-        objects like a feather, golf balls and boots. It adds up to around 200 tons<br>
-        of our trash.Since no one owns the Moon, no one is responsible for keeping it<br>
-        clean and tidy.</p2>
-    </font>
-
-    <font size="5"><em><strong>
-          <h2>Light Pollution</h2>
-        </strong></em>
-      <p>
-        Light pollution is a global issue. This became glaringly obvious when the World<br>
-        Atlas of Night Sky Brightness, a computer-generated map based on thousands<br>
-        of satellite photos, was published
-        in 2016. Available online for viewing, the atlas<br> shows how and where our globe is lit up at night.
-        Vast areas of North America,<br>
-        Europe, the Middle East, and Asia are glowing with light,
-        while only the most remote<br>
-        regions on Earth (Siberia, the Sahara, and the Amazon)
-        are in total darkness. Some of<br>
-        the most light-polluted countries in the world are Singapore, Qatar, and Kuwait.
-      </p>
-      <br>
-
-
-      <style>
-        .button-1 {
-          background-color: #484866;
-          border-radius: 8px;
-          border-style: none;
-          box-sizing: border-box;
-          color: #FFFFFF;
-          cursor: pointer;
-          display: inline-block;
-          font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-          font-size: 14px;
-          font-weight: 500;
-          height: 40px;
-          line-height: 20px;
-          list-style: none;
-          margin: 0;
-          outline: none;
-          padding: 10px 16px;
-          position: relative;
-          text-align: center;
-          text-decoration: none;
-          transition: color 100ms;
-          vertical-align: baseline;
-          user-select: none;
-          -webkit-user-select: none;
-          touch-action: manipulation;
-        }
-
-        .button-1:hover,
-        .button-1:focus {
-          background-color: #51516e;
-        }
-
-
-        body {
-          font-family: Arial;
-        }
-
-        /* Style the tab */
-        .tab {
-          overflow: hidden;
-          border: 1px solid #ccc;
-          background-color: #ffffff;
-        }
-
-        /* Style the buttons inside the tab */
-        .tab button {
-          background-color: #bababf1;
-          float: left;
-          border: none;
-          outline: none;
-          cursor: pointer;
-          padding: 14px 16px;
-          transition: 0.3s;
-          font-size: 17px;
-        }
-
-        /* Change background color of buttons on hover */
-        .tab button:hover {
-          background-color: rgb(122, 122, 161);
-        }
-
-        /* Create an active/current tablink class */
-        .tab button.active {
-          background-color: rgb(133, 134, 161);
-          ;
-        }
-
-        /* Style the tab content */
-        .tabcontent {
-          text-align: center;
-          display: none;
-          padding: 6px 12px;
-          -webkit-animation: fadeEffect 1s;
-          animation: fadeEffect 1s;
-        }
-
-        h3 {
-          text-align: center
-        }
-
-
-        body {
-          background: rgb(98, 76, 129);
-          border: 6px solid #e6e6e6;
-          background: radial-gradient(circle, rgba(98, 76, 129, 1) 0%, rgba(54, 70, 105, 1) 100%);
-        }
+  <footer>
+    <p>&copy; 2026 GCSE Revision</p>
+  </footer>
+</body>
+</html>
