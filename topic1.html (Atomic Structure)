@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Atomic Structure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Atomic Structure</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="topic1.html">Atomic Structure</a>
+      <a href="topic2.html">Bonding</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Key Notes</h2>
+    <ul>
+      <li>Atoms consist of protons, neutrons, and electrons.</li>
+      <li>Atomic number = number of protons.</li>
+      <li>Mass number = protons + neutrons.</li>
+    </ul>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Atom_diagram.png" alt="Atom Diagram" width="250">
+  </main>
+</body>
+</html>
